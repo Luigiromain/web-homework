@@ -7,7 +7,7 @@ h1 { color: rgb(24, 209, 191);
 font-family: 'Computer Modern';}
 
 h2 {
-    color: rgb(159, 12, 196);
+    color: rgb(0, 139, 39);
     font-family: 'Computer Modern';
 }
 
@@ -18,4 +18,29 @@ p {
 ul {
     font-family: 'Computer Modern';
 }
-
+.container {
+    display: grid;
+    grid-template-columns:
+      1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "main   main"
+      "footer_un footer_deux ";
+  }
+  
+#header {
+    grid-area: header;
+    background-color: #5aff97;
+}
+#main {
+    grid-area: main;
+    background-color: #ffffff;
+}
+#footer_un {
+    grid-area: footer_un;
+    background-color: #3088db5f;
+}
+#footer_deux {
+    grid-area: footer_deux;
+    background-color: #2f9cc082;
+}
