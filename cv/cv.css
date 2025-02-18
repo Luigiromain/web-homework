@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');}
+  
+
+h1 { color: rgb(24, 209, 191);
+font-family: 'Computer Modern';}
+
+h2 {
+    color: rgb(159, 12, 196);
+    font-family: 'Computer Modern';
+}
+
+p {
+    font-family: 'Computer Modern';
+}
+
+ul {
+    font-family: 'Computer Modern';
+}
+
